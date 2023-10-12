@@ -17,10 +17,44 @@ $registrodecoop = get_field('registrodecoop');
 
 ?>
 
- <section id="services" style="padding: 50px 0 0 0;">
-	 
+
+
+ <section id="services" style="padding: 10px 0 0 0;">
+
+ 
     <div class="container">
 		
+	  	<div class="row text-center">
+			<div class="col-lg-12">
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+						<img src="/wp-content/uploads/2023/10/960x320Negro.png" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+						<img src="/wp-content/uploads/2023/10/960x320Rojo.png" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+						<img src="/wp-content/uploads/2023/10/960x320Rosa.png" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+						<img src="/wp-content/uploads/2023/10/960x320VerdeManzana.png" class="d-block w-100" alt="...">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</button>
+				</div>
+			</div>
+		</div>	
+
+		<br>
+
       <div class="row text-center">            
       <?php $query_posts = new WP_Query(array('post_type' => 'noticias', 'showposts' => 3)); ?>
 				<?php
@@ -75,11 +109,11 @@ $registrodecoop = get_field('registrodecoop');
 							<img src="https://asociatividad.economia.cl/wp-content/uploads/2020/05/icon-doc.png" class="img-fluid"/>
 							
 							<h2 style="font-size:1.2rem; font-family: 'Roboto Slab', serif!important; font-weight:400;     min-height: 46px;">
-								Funcionamiento de organizaciones contexto contingencia sanitaria
+								Registro de cooperativas activas y vigentes
 							</h2>
 						
 							<div class="mt-4" style="margin:0 auto; max-width: 200px; padding: 10px; text-align: center; border: 1px solid #0052ab; min-height: 50px;">
-								<a href="https://asociatividad.economia.cl/funcionamiento-de-organizaciones-contexto-contingencia-sanitaria/">Revisa aquí</a>
+								<a href="https://tramites.economia.gob.cl/Organizacion">Revisa aquí</a>
 							</div>
 							
 						</div>

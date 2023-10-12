@@ -89,32 +89,40 @@
           </li>
           <li class="nav-item dropdown">          
 			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Documentos
+          Recursos
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-             <a class="dropdown-item" href="<?php bloginfo('url') ?>/normativas/">Normativas</a>
-			  <a class="dropdown-item" href="<?php bloginfo('url') ?>/funcionamiento-de-organizaciones-contexto-contingencia-sanitaria/">Contingencia Covid-19</a>
+            <a class="dropdown-item" href="<?php bloginfo('url') ?>/normativas/">Normativas</a>
+			      <a class="dropdown-item" href="<?php bloginfo('url') ?>/guias-fichas-y-estatutos/">Guías, fichas y estatutos tipo</a>
+            <a class="dropdown-item" href="<?php bloginfo('url') ?>/capacitacion/">Ofertas de capacitación</a>
+            <a class="dropdown-item" href="#">Tutoriales (Vídeos)</a>
 			  </div>
           </li>		
 							 
-			<li class="nav-item dropdown">
+			    <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Estadísticas</a>	
-				 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				  <a class="dropdown-item" href="<?php bloginfo('url') ?>/mapa-regional/">Mapa Organizaciones</a>
-				  <a class="dropdown-item" href="<?php bloginfo('url') ?>/documentos/estadisticas/">Informes Estadísticos</a>				  
-				</div>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="<?php bloginfo('url') ?>/documentos/estadisticas/">Informes Estadísticos</a>				  
+                <a class="dropdown-item" href="#">Mapa Organizaciones</a>				  
+                <a class="dropdown-item" href="#">Registro de cooperativas activas y vigentes</a>				  
+            </div>
           </li>
 		<!--<li class="nav-item">
             <a class="nav-link" href="<?php bloginfo('url') ?>/beneficios">Beneficios</a>
           </li>-->
-          <li class="nav-item">
-            <a class="nav-link" href="<?php bloginfo('url') ?>/noticias">Noticias</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Noticias</a>	
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Noticias</a>				  
+                <a class="dropdown-item" href="#">En los medios</a>				  
+                
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://tramites.economia.gob.cl/DAES">DAES Digital</a>
           </li>
          <li class="nav-item">
-            <a class="nav-link" href="<?php bloginfo('url') ?>/contacto" >Contacto</a>
+            <a class="nav-link" href="<?php bloginfo('url') ?>/contacto" >Atención ciudadana</a>
           </li>
         </ul>
       </div>
@@ -122,8 +130,8 @@
   </nav>
 
   <!-- Header -->
-  <?php if(is_page('Home') || is_home()){ ?>
-  <header class="masthead">
+  
+  <!--<header class="masthead">
     <div class="container">
       <div class="intro-text">
         <div class="intro-lead-in">
@@ -133,8 +141,8 @@
         </div>       
       </div>
     </div>
-  </header>
-  <?php } else { ?>
+  </header>-->
+  
   
   <header class="masthead" style="background-color:#011c41; background-image: none; height: 160px;">
     <div class="container">
@@ -158,4 +166,4 @@
 		        </div>        
       	</section>
   
-<?php } ?>
+
